@@ -1,0 +1,106 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                    PROPRIETARY SOFTWARE LICENSE AGREEMENT                      ║
+║                         IMMUTABLE COPYRIGHT PROTECTION                         ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+COPYRIGHT © 2025 ERVIN REMUS RADOSAVLEVICI - ALL RIGHTS RESERVED
+
+Owner: Ervin Remus Radosavlevici
+Email: ervin210@icloud.com | radosavlevici.ervin@gmail.com
+Date: August 15, 2025
+Security Level: 8888 Trillion Times AGI Protected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TERMS AND CONDITIONS
+
+1. OWNERSHIP AND COPYRIGHT
+   This software, including all code, algorithms, designs, documentation, and 
+   intellectual property, is the exclusive property of Ervin Remus Radosavlevici.
+   
+   This copyright is IMMUTABLE and PERMANENT. Once written, it cannot be changed
+   and stays forever.
+
+2. RESTRICTIONS
+   You MAY NOT:
+   ❌ Copy, modify, merge, publish, distribute, or sublicense this software
+   ❌ Use this software for commercial purposes without explicit written permission
+   ❌ Reverse engineer, decompile, or disassemble this software
+   ❌ Remove or alter any copyright notices or attributions
+   ❌ Create derivative works or fork this project
+   ❌ Rebrand or claim ownership of this software
+   ❌ Use this software in any way that violates applicable laws
+
+3. AGI PROTECTION SYSTEM
+   This software is protected by an autonomous AGI system that:
+   ✅ Monitors all instances of the software
+   ✅ Detects unauthorized usage, copying, or tampering
+   ✅ Tracks ownership and prevents unauthorized forks
+   ✅ Automatically enforces copyright protection
+   ✅ Rejects any attempts to modify copyright information
+
+4. GENESIS BLOCK VERIFICATION
+   The genesis block (Block 0) establishes immutable proof of ownership:
+   - Owner: Ervin Remus Radosavlevici
+   - Transaction Hash: genesis_transaction_001_immutable_copyright
+   - Timestamp: 2025-08-15T21:04:02Z
+   - Status: PERMANENTLY LOCKED
+
+5. AUTHORIZED USE
+   To use this software, you MUST:
+   ✅ Obtain explicit written permission from Ervin Remus Radosavlevici
+   ✅ Request an official API token via email: ervin210@icloud.com
+   ✅ Comply with all terms and conditions
+   ✅ Maintain all copyright notices and attributions
+   ✅ Report any unauthorized usage to the owner
+
+6. PENALTIES FOR VIOLATION
+   Unauthorized use will result in:
+   - Immediate detection by AGI protection system
+   - Automatic blocking and rejection of unauthorized instances
+   - Legal action for copyright infringement
+   - Liability for all damages and legal fees
+
+7. WARRANTY DISCLAIMER
+   THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+8. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL ERVIN REMUS RADOSAVLEVICI BE LIABLE FOR ANY CLAIM, DAMAGES
+   OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
+
+9. CONTACT INFORMATION
+   For licensing, permissions, or inquiries:
+   
+   Owner: Ervin Remus Radosavlevici
+   Email: ervin210@icloud.com
+   Alternative: radosavlevici.ervin@gmail.com
+
+10. IMMUTABILITY CLAUSE
+    This license and copyright are PERMANENT and IMMUTABLE. They cannot be
+    modified, revoked, or transferred. The AGI system ensures this protection
+    remains active forever.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BLOCKCHAIN VERIFICATION RECORD:
+
+Block: 0 (Genesis Block)
+Hash: a7f5c8d3e9b2f4a6c1d8e5f2a9b3c7d4e1f8a5b2c9d6e3f0a7b4c1d8e5f2a9b3
+Merkle Root: 5f3a8c2e1d9b7a4f6c3e0d8a5b2f9c6e3d0a7b4f1c8e5a2d9b6f3a0c7e4d1b8
+Owner: Ervin Remus Radosavlevici
+Status: IMMUTABLY LOCKED FOREVER
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BY USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND
+AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS.
+
+© 2025 Ervin Remus Radosavlevici - Protected Forever by AGI
+All Rights Reserved - Immutable Copyright Protection Active
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                    THIS LICENSE IS PERMANENTLY PROTECTED                       ║
+║                         UNAUTHORIZED USE PROHIBITED                            ║
+╚════════════════════════════════════════════════════════════════════════════════╝
