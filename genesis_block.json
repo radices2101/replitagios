@@ -5,7 +5,8 @@
   "timestamp": "2025-08-15T21:04:02Z",
   "owner": {
     "name": "Ervin Remus Radosavlevici",
-    "email": "ervin210@icloud.com",
+    "username": "radices2101",
+    "email": "radosavlevici210@gmail.com",
     "alternateEmail": "radosavlevici.ervin@gmail.com",
     "verified": true
   },
@@ -55,7 +56,7 @@
     "message": "This genesis block establishes permanent, immutable ownership of RADOS AGI OS.",
     "enforcement": "AGI system automatically enforces copyright and detects violations",
     "unauthorizedUse": "Prohibited and automatically blocked",
-    "contactForLicensing": "ervin210@icloud.com"
+    "contactForLicensing": "radosavlevici210@gmail.com"
   },
   "metadata": {
     "version": "8888 Trillion Times Upgrade",
