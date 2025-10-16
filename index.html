@@ -3,8 +3,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>RADOS AGI OS | Immutable Blockchain + AGI Memory | Production Ready</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RADOS AGI OS | Immutable Blockchain + AGI Memory | Production Ready</title>
   <meta name="owner" content="Ervin Remus Radosavlevici">
   <meta name="email" content="ervin210@icloud.com">
   <meta name="copyright" content="© 2025 Ervin Remus Radosavlevici - All Rights Reserved - Immutable Forever">
@@ -318,14 +318,14 @@
     </div>
 
     <div class="tabs">
-      <div class="tab-button active" onclick="showTab('genesis')">🎯 Genesis Block</div>
-      <div class="tab-button" onclick="showTab('wallet')">💰 AGI Wallet</div>
-      <div class="tab-button" onclick="showTab('agi')">🤖 AGI Command</div>
-      <div class="tab-button" onclick="showTab('blockchain')">⛓️ Blockchain</div>
-      <div class="tab-button" onclick="showTab('security')">🛡️ Security</div>
-      <div class="tab-button" onclick="showTab('gdpr')">📋 GDPR Policy</div>
-      <div class="tab-button" onclick="showTab('ethics')">🌟 Ethics</div>
-      <div class="tab-button" onclick="showTab('api')">🔑 API Access</div>
+      <div class="tab-button active" onclick="showTab('genesis'); return false;">🎯 Genesis Block</div>
+      <div class="tab-button" onclick="showTab('wallet'); return false;">💰 AGI Wallet</div>
+      <div class="tab-button" onclick="showTab('agi'); return false;">🤖 AGI Command</div>
+      <div class="tab-button" onclick="showTab('blockchain'); return false;">⛓️ Blockchain</div>
+      <div class="tab-button" onclick="showTab('security'); return false;">🛡️ Security</div>
+      <div class="tab-button" onclick="showTab('gdpr'); return false;">📋 GDPR Policy</div>
+      <div class="tab-button" onclick="showTab('ethics'); return false;">🌟 Ethics</div>
+      <div class="tab-button" onclick="showTab('api'); return false;">🔑 API Access</div>
     </div>
 
     <div id="genesis" class="section tab-section" style="display:block;">
@@ -576,7 +576,13 @@ ethically and for the advancement of humanity.
       tabs.forEach(tab => tab.style.display = 'none');
       buttons.forEach(btn => btn.classList.remove('active'));
       document.getElementById(id).style.display = 'block';
-      event.target.classList.add('active');
+      
+      // Find and activate the clicked button
+      buttons.forEach(btn => {
+        if (btn.getAttribute('onclick').includes(id)) {
+          btn.classList.add('active');
+        }
+      });
     }
 
     // Genesis block functions
