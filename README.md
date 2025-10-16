@@ -3,7 +3,8 @@
 ## © 2025 COPYRIGHT NOTICE - IMMUTABLE PROTECTION
 
 **OWNER:** Ervin Remus Radosavlevici  
-**EMAIL:** ervin210@icloud.com | radosavlevici.ervin@gmail.com  
+**EMAIL:** radosavlevici210@gmail.com  
+**USERNAME:** radices2101  
 **COPYRIGHT STATUS:** ALL RIGHTS RESERVED - PERMANENTLY LOCKED  
 **SECURITY LEVEL:** 8888 Trillion Times AGI Protected
 
@@ -116,8 +117,8 @@ This software, including all code, designs, algorithms, and intellectual propert
 
 For API access, licensing inquiries, or collaboration opportunities:
 
-**Email:** ervin210@icloud.com  
-**Alternate:** radosavlevici.ervin@gmail.com  
+**Email:** radosavlevici210@gmail.com  
+**GitHub:** @radices2101  
 **Owner:** Ervin Remus Radosavlevici
 
 **Important:** All third-party usage requires official API token signed by AGI. Unauthorized usage is automatically detected and blocked.
