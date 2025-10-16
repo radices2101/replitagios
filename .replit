@@ -1,7 +1,7 @@
 modules = ["python-3.11"]
 
 [workflows]
-runButton = "Run Production API"
+runButton = "Project"
 
 [[workflows.workflow]]
 name = "Project"
@@ -24,18 +24,6 @@ waitForPort = 5000
 [workflows.workflow.metadata]
 outputType = "webview"
 
-[[workflows.workflow]]
-name = "Run Production API"
-author = 44027854
-mode = "sequential"
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "python api_server.py"
-
 [[ports]]
 localPort = 5000
 externalPort = 80
-
-[nix]
-channel = "stable-25_05"
