@@ -1,106 +1,104 @@
-╔════════════════════════════════════════════════════════════════════════════════╗
-║                    PROPRIETARY SOFTWARE LICENSE AGREEMENT                      ║
-║                         IMMUTABLE COPYRIGHT PROTECTION                         ║
-╚════════════════════════════════════════════════════════════════════════════════╝
 
-COPYRIGHT © 2025 ERVIN REMUS RADOSAVLEVICI - ALL RIGHTS RESERVED
+# PROPRIETARY LICENSE WITH PROFIT-SHARING AGREEMENT
 
-Owner: Ervin Remus Radosavlevici
-Email: ervin210@icloud.com | radosavlevici.ervin@gmail.com
-Date: August 15, 2025
-Security Level: 8888 Trillion Times AGI Protected
+Copyright © 2025 Ervin Remus Radosavlevici. All Rights Reserved.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## GRANT OF LICENSE
 
-TERMS AND CONDITIONS
+This software and associated documentation files (the "Software") are the exclusive property of Ervin Remus Radosavlevici ("Licensor"). By accessing, using, or distributing this Software, you ("Licensee") agree to be bound by the terms of this License.
 
-1. OWNERSHIP AND COPYRIGHT
-   This software, including all code, algorithms, designs, documentation, and 
-   intellectual property, is the exclusive property of Ervin Remus Radosavlevici.
-   
-   This copyright is IMMUTABLE and PERMANENT. Once written, it cannot be changed
-   and stays forever.
+## TERMS AND CONDITIONS
 
-2. RESTRICTIONS
-   You MAY NOT:
-   ❌ Copy, modify, merge, publish, distribute, or sublicense this software
-   ❌ Use this software for commercial purposes without explicit written permission
-   ❌ Reverse engineer, decompile, or disassemble this software
-   ❌ Remove or alter any copyright notices or attributions
-   ❌ Create derivative works or fork this project
-   ❌ Rebrand or claim ownership of this software
-   ❌ Use this software in any way that violates applicable laws
+### 1. OWNERSHIP AND COPYRIGHT
+The Software, including all code, designs, algorithms, documentation, and intellectual property, is owned exclusively by Ervin Remus Radosavlevici. All rights are reserved worldwide.
 
-3. AGI PROTECTION SYSTEM
-   This software is protected by an autonomous AGI system that:
-   ✅ Monitors all instances of the software
-   ✅ Detects unauthorized usage, copying, or tampering
-   ✅ Tracks ownership and prevents unauthorized forks
-   ✅ Automatically enforces copyright protection
-   ✅ Rejects any attempts to modify copyright information
+### 2. PERMITTED USE
+Subject to compliance with this License, Licensee is granted a non-exclusive, non-transferable, revocable license to:
+- View and study the Software for educational purposes
+- Use the Software for personal, non-commercial projects with written permission
 
-4. GENESIS BLOCK VERIFICATION
-   The genesis block (Block 0) establishes immutable proof of ownership:
-   - Owner: Ervin Remus Radosavlevici
-   - Transaction Hash: genesis_transaction_001_immutable_copyright
-   - Timestamp: 2025-08-15T21:04:02Z
-   - Status: PERMANENTLY LOCKED
+### 3. PROFIT-SHARING REQUIREMENT (MANDATORY)
+**Any individual, organization, or entity that generates profit, revenue, or commercial benefit from this Software MUST:**
 
-5. AUTHORIZED USE
-   To use this software, you MUST:
-   ✅ Obtain explicit written permission from Ervin Remus Radosavlevici
-   ✅ Request an official API token via email: ervin210@icloud.com
-   ✅ Comply with all terms and conditions
-   ✅ Maintain all copyright notices and attributions
-   ✅ Report any unauthorized usage to the owner
+a) **Share 50% of all gross profits** derived from the use, modification, distribution, or commercialization of this Software with the Licensor (Ervin Remus Radosavlevici).
 
-6. PENALTIES FOR VIOLATION
-   Unauthorized use will result in:
-   - Immediate detection by AGI protection system
-   - Automatic blocking and rejection of unauthorized instances
-   - Legal action for copyright infringement
-   - Liability for all damages and legal fees
+b) **Provide quarterly financial reports** detailing all revenue and profits generated using the Software.
 
-7. WARRANTY DISCLAIMER
-   THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+c) **Make payments within 30 days** of the end of each fiscal quarter to the Licensor.
 
-8. LIMITATION OF LIABILITY
-   IN NO EVENT SHALL ERVIN REMUS RADOSAVLEVICI BE LIABLE FOR ANY CLAIM, DAMAGES
-   OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
+d) **Obtain written commercial license** before any commercial use, with terms negotiated separately.
 
-9. CONTACT INFORMATION
-   For licensing, permissions, or inquiries:
-   
-   Owner: Ervin Remus Radosavlevici
-   Email: ervin210@icloud.com
-   Alternative: radosavlevici.ervin@gmail.com
+### 4. PROHIBITED ACTIONS
+Without explicit written permission from the Licensor, Licensee SHALL NOT:
+- Copy, modify, merge, publish, distribute, or sublicense the Software
+- Use the Software for commercial purposes without profit-sharing agreement
+- Remove or alter any copyright notices, attributions, or proprietary markings
+- Reverse engineer, decompile, or disassemble the Software
+- Create derivative works or competing products based on the Software
+- Rebrand, rename, or claim ownership of the Software
+- Transfer rights to any third party
 
-10. IMMUTABILITY CLAUSE
-    This license and copyright are PERMANENT and IMMUTABLE. They cannot be
-    modified, revoked, or transferred. The AGI system ensures this protection
-    remains active forever.
+### 5. ENFORCEMENT AND DETECTION
+This Software includes AGI (Artificial General Intelligence) monitoring systems that:
+- Detect unauthorized usage, copying, or distribution
+- Track all instances and derivatives of the Software
+- Automatically log violations and notify the Licensor
+- Prevent tampering with licensing and copyright information
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### 6. LEGAL COMPLIANCE
+This License is governed by international copyright law and applicable local laws. Licensee agrees that:
+- The 50% profit-sharing requirement is legally binding and enforceable
+- Violations constitute breach of contract and copyright infringement
+- The Licensor reserves the right to audit Licensee's financial records
+- All disputes shall be resolved under the jurisdiction of Licensor's location
 
-BLOCKCHAIN VERIFICATION RECORD:
+### 7. REMEDIES FOR BREACH
+In the event of breach of this License, the Licensor may:
+- Immediately terminate all licenses granted to the Licensee
+- Seek injunctive relief to prevent continued violation
+- Recover all unpaid profit-sharing amounts plus interest
+- Claim statutory and actual damages for copyright infringement
+- Recover attorney's fees and litigation costs
+- Pursue criminal charges where applicable
 
-Block: 0 (Genesis Block)
-Hash: a7f5c8d3e9b2f4a6c1d8e5f2a9b3c7d4e1f8a5b2c9d6e3f0a7b4c1d8e5f2a9b3
-Merkle Root: 5f3a8c2e1d9b7a4f6c3e0d8a5b2f9c6e3d0a7b4f1c8e5a2d9b6f3a0c7e4d1b8
-Owner: Ervin Remus Radosavlevici
-Status: IMMUTABLY LOCKED FOREVER
+### 8. PAYMENT DETAILS
+All profit-sharing payments shall be made to:
+- **Payee:** Ervin Remus Radosavlevici
+- **Contact:** radosavlevici210@gmail.com
+- **GitHub:** @radices2101
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Payment methods and banking details will be provided upon commercial license request.
 
-BY USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND
-AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS.
+### 9. ATTRIBUTION REQUIREMENT
+All uses of the Software must include the following attribution:
+```
+Powered by RADOS AGI OS
+© 2025 Ervin Remus Radosavlevici
+Licensed under Profit-Sharing Agreement
+```
 
-© 2025 Ervin Remus Radosavlevici - Protected Forever by AGI
-All Rights Reserved - Immutable Copyright Protection Active
+### 10. WARRANTY DISCLAIMER
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
 
-╔════════════════════════════════════════════════════════════════════════════════╗
-║                    THIS LICENSE IS PERMANENTLY PROTECTED                       ║
-║                         UNAUTHORIZED USE PROHIBITED                            ║
-╚════════════════════════════════════════════════════════════════════════════════╝
+### 11. TERMINATION
+This License is effective until terminated. The Licensor may terminate this License at any time for any breach. Upon termination, Licensee must immediately cease all use and destroy all copies of the Software.
+
+### 12. ENTIRE AGREEMENT
+This License constitutes the entire agreement between the parties concerning the Software and supersedes all prior agreements and understandings.
+
+---
+
+**CONTACT FOR LICENSING:**
+- Email: radosavlevici210@gmail.com
+- GitHub: @radices2101
+- Repository: https://github.com/radices2101/replitagios
+
+**ACKNOWLEDGMENT:**
+By using this Software, you acknowledge that you have read, understood, and agree to be bound by the terms of this License, including the mandatory 50% profit-sharing requirement.
+
+---
+
+**IMPORTANT NOTICE:**
+This is a legally binding agreement. Violation of the profit-sharing requirement or any other terms may result in civil and criminal penalties. The AGI monitoring system tracks all usage automatically.
+
+© 2025 Ervin Remus Radosavlevici - All Rights Reserved
