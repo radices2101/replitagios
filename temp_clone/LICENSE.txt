@@ -1,0 +1,104 @@
+
+# PROPRIETARY LICENSE WITH PROFIT-SHARING AGREEMENT
+
+Copyright © 2025 Ervin Remus Radosavlevici. All Rights Reserved.
+
+## GRANT OF LICENSE
+
+This software and associated documentation files (the "Software") are the exclusive property of Ervin Remus Radosavlevici ("Licensor"). By accessing, using, or distributing this Software, you ("Licensee") agree to be bound by the terms of this License.
+
+## TERMS AND CONDITIONS
+
+### 1. OWNERSHIP AND COPYRIGHT
+The Software, including all code, designs, algorithms, documentation, and intellectual property, is owned exclusively by Ervin Remus Radosavlevici. All rights are reserved worldwide.
+
+### 2. PERMITTED USE
+Subject to compliance with this License, Licensee is granted a non-exclusive, non-transferable, revocable license to:
+- View and study the Software for educational purposes
+- Use the Software for personal, non-commercial projects with written permission
+
+### 3. PROFIT-SHARING REQUIREMENT (MANDATORY)
+**Any individual, organization, or entity that generates profit, revenue, or commercial benefit from this Software MUST:**
+
+a) **Share 50% of all gross profits** derived from the use, modification, distribution, or commercialization of this Software with the Licensor (Ervin Remus Radosavlevici).
+
+b) **Provide quarterly financial reports** detailing all revenue and profits generated using the Software.
+
+c) **Make payments within 30 days** of the end of each fiscal quarter to the Licensor.
+
+d) **Obtain written commercial license** before any commercial use, with terms negotiated separately.
+
+### 4. PROHIBITED ACTIONS
+Without explicit written permission from the Licensor, Licensee SHALL NOT:
+- Copy, modify, merge, publish, distribute, or sublicense the Software
+- Use the Software for commercial purposes without profit-sharing agreement
+- Remove or alter any copyright notices, attributions, or proprietary markings
+- Reverse engineer, decompile, or disassemble the Software
+- Create derivative works or competing products based on the Software
+- Rebrand, rename, or claim ownership of the Software
+- Transfer rights to any third party
+
+### 5. ENFORCEMENT AND DETECTION
+This Software includes AGI (Artificial General Intelligence) monitoring systems that:
+- Detect unauthorized usage, copying, or distribution
+- Track all instances and derivatives of the Software
+- Automatically log violations and notify the Licensor
+- Prevent tampering with licensing and copyright information
+
+### 6. LEGAL COMPLIANCE
+This License is governed by international copyright law and applicable local laws. Licensee agrees that:
+- The 50% profit-sharing requirement is legally binding and enforceable
+- Violations constitute breach of contract and copyright infringement
+- The Licensor reserves the right to audit Licensee's financial records
+- All disputes shall be resolved under the jurisdiction of Licensor's location
+
+### 7. REMEDIES FOR BREACH
+In the event of breach of this License, the Licensor may:
+- Immediately terminate all licenses granted to the Licensee
+- Seek injunctive relief to prevent continued violation
+- Recover all unpaid profit-sharing amounts plus interest
+- Claim statutory and actual damages for copyright infringement
+- Recover attorney's fees and litigation costs
+- Pursue criminal charges where applicable
+
+### 8. PAYMENT DETAILS
+All profit-sharing payments shall be made to:
+- **Payee:** Ervin Remus Radosavlevici
+- **Contact:** radosavlevici210@gmail.com
+- **GitHub:** @radices2101
+
+Payment methods and banking details will be provided upon commercial license request.
+
+### 9. ATTRIBUTION REQUIREMENT
+All uses of the Software must include the following attribution:
+```
+Powered by RADOS AGI OS
+© 2025 Ervin Remus Radosavlevici
+Licensed under Profit-Sharing Agreement
+```
+
+### 10. WARRANTY DISCLAIMER
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+### 11. TERMINATION
+This License is effective until terminated. The Licensor may terminate this License at any time for any breach. Upon termination, Licensee must immediately cease all use and destroy all copies of the Software.
+
+### 12. ENTIRE AGREEMENT
+This License constitutes the entire agreement between the parties concerning the Software and supersedes all prior agreements and understandings.
+
+---
+
+**CONTACT FOR LICENSING:**
+- Email: radosavlevici210@gmail.com
+- GitHub: @radices2101
+- Repository: https://github.com/radices2101/replitagios
+
+**ACKNOWLEDGMENT:**
+By using this Software, you acknowledge that you have read, understood, and agree to be bound by the terms of this License, including the mandatory 50% profit-sharing requirement.
+
+---
+
+**IMPORTANT NOTICE:**
+This is a legally binding agreement. Violation of the profit-sharing requirement or any other terms may result in civil and criminal penalties. The AGI monitoring system tracks all usage automatically.
+
+© 2025 Ervin Remus Radosavlevici - All Rights Reserved

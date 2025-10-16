@@ -1,0 +1,27 @@
+
+{
+  "networks": {
+    "ethereum": {
+      "mainnet": {
+        "rpc": "https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY",
+        "chainId": 1,
+        "explorer": "https://etherscan.io"
+      },
+      "testnet": {
+        "rpc": "https://eth-sepolia.g.alchemy.com/v2/YOUR_API_KEY",
+        "chainId": 11155111,
+        "explorer": "https://sepolia.etherscan.io"
+      }
+    },
+    "polygon": {
+      "mainnet": {
+        "rpc": "https://polygon-rpc.com",
+        "chainId": 137,
+        "explorer": "https://polygonscan.com"
+      }
+    }
+  },
+  "owner": "Ervin Remus Radosavlevici",
+  "email": "radosavlevici210@gmail.com",
+  "repository": "https://replit.com/@radosavlevici21/replitagios"
+}
