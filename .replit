@@ -78,3 +78,6 @@ run = ["sh", "-c", "python -m http.server 8080"]
 [[ports]]
 localPort = 8080
 externalPort = 80
+
+[agent]
+expertMode = true
