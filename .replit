@@ -1,7 +1,7 @@
 modules = ["python-3.11"]
 
 [workflows]
-runButton = "Run Production API"
+runButton = "Serve HTML"
 
 [[workflows.workflow]]
 name = "Project"
@@ -32,6 +32,15 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python api_server.py"
+
+[[workflows.workflow]]
+name = "Serve HTML"
+author = 44027854
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python -m http.server 5000"
 
 [[ports]]
 localPort = 5000
