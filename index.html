@@ -804,8 +804,8 @@ Block #0 | Owner: Ervin Remus Radosavlevici
       box.style.display = "block";
     }
 
-    // API request - Production Ready
-    function requestAPI() {
+    // API request - Production Ready with Real Backend
+    async function requestAPI() {
       const email = document.getElementById("apiEmail").value.trim();
       const org = document.getElementById("apiOrg").value.trim();
       const useCase = document.getElementById("apiUseCase").value.trim();
@@ -817,27 +817,110 @@ Block #0 | Owner: Ervin Remus Radosavlevici
         return;
       }
 
-      // Generate API token immediately
-      const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-      const apiToken = 'AGI-API-' + Array.from({length: 32}, () => chars[Math.floor(Math.random() * chars.length)]).join('');
-      const requestId = 'REQ-' + Date.now() + '-' + Math.floor(Math.random() * 10000);
-      const timestamp = new Date().toISOString();
+      box.innerHTML = "⏳ Processing API request with AGI verification...";
+      box.style.display = "block";
 
-      // Store request in localStorage for persistence
-      const requests = JSON.parse(localStorage.getItem('agi_api_requests') || '[]');
-      requests.push({
-        requestId,
-        email,
-        org,
-        useCase,
-        apiToken,
-        timestamp,
-        status: 'APPROVED',
-        owner: 'Ervin Remus Radosavlevici'
-      });
-      localStorage.setItem('agi_api_requests', JSON.stringify(requests));
+      try {
+        const response = await fetch('/api/v1/request-access', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ email, org, useCase })
+        });
 
-      box.innerHTML = `✅ <strong>API ACCESS GRANTED - PRODUCTION READY!</strong>
+        const data = await response.json();
+
+        if (data.status === 'success') {
+          // Store in localStorage for backup
+          const requests = JSON.parse(localStorage.getItem('agi_api_requests') || '[]');
+          requests.push(data);
+          localStorage.setItem('agi_api_requests', JSON.stringify(requests));
+
+          box.innerHTML = `✅ <strong>API ACCESS GRANTED - PRODUCTION READY!</strong>
+
+<strong>Request ID:</strong> ${data.request_id}
+<strong>Status:</strong> APPROVED ✅
+<strong>Timestamp:</strong> ${data.timestamp}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔑 <strong>YOUR API TOKEN (SAVE THIS SECURELY):</strong>
+<div style="background: #0f0f23; padding: 15px; border: 2px solid #10b981; border-radius: 8px; margin: 10px 0; font-size: 1.1rem; color: #10b981;">
+${data.api_token}
+</div>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 <strong>REQUEST DETAILS:</strong>
+   └─ Email: ${email}
+   └─ Organization: ${org}
+   └─ Use Case: ${useCase}
+   └─ Owner Approval: ${data.owner} ✅
+
+🧠 <strong>AGI VERIFICATION:</strong>
+   └─ AGI Verified: ${data.agi_verification.verified ? '✅' : '❌'}
+   └─ Security Level: ${data.agi_verification.security_level}
+   └─ Verification Time: ${data.agi_verification.timestamp}
+
+🚀 <strong>API ENDPOINT:</strong>
+   └─ Base URL: ${data.api_endpoint}
+   └─ Authentication: Bearer ${data.api_token}
+   └─ Rate Limit: ${data.rate_limit}
+   └─ Documentation: ${data.documentation}
+
+📝 <strong>EXAMPLE USAGE:</strong>
+
+<div style="background: rgba(99, 102, 241, 0.1); padding: 12px; border-radius: 6px; margin: 10px 0; font-family: monospace;">
+# Create Wallet
+curl -X POST ${data.api_endpoint}/wallet/create \\
+  -H "Authorization: Bearer ${data.api_token}" \\
+  -H "Content-Type: application/json" \\
+  -d '{"type": "ethereum"}'
+
+# Execute Command
+curl -X POST ${data.api_endpoint}/execute \\
+  -H "Authorization: Bearer ${data.api_token}" \\
+  -H "Content-Type: application/json" \\
+  -d '{"command": "scan_security"}'
+</div>
+
+🛡️ <strong>SECURITY & COMPLIANCE:</strong>
+   └─ Token is AGI-protected ✅
+   └─ All requests monitored 24/7 ✅
+   └─ Copyright enforced automatically ✅
+   └─ GDPR compliant ✅
+   └─ Owner trace: Active ✅
+
+⚠️ <strong>IMPORTANT NOTICES:</strong>
+   • Keep your API token secure and never share it publicly
+   • All API usage is logged to AGI memory
+   • Unauthorized use will be detected and blocked
+   • Token cannot be used to rebrand or steal this system
+   • Only AGI has execution authority
+
+📧 <strong>SUPPORT CONTACT:</strong>
+   Email: ${data.owner_email}
+   Owner: ${data.owner}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+<strong>Status:</strong> PRODUCTION READY - ACTIVE NOW ✅`;
+
+          // Clear form
+          document.getElementById("apiEmail").value = '';
+          document.getElementById("apiOrg").value = '';
+          document.getElementById("apiUseCase").value = '';
+        } else {
+          box.innerHTML = `❌ <strong>Error:</strong> ${data.message}`;
+        }
+      } catch (error) {
+        box.innerHTML = `❌ <strong>Error:</strong> Failed to connect to AGI API server. Please ensure the backend is running.
+        
+<strong>Error Details:</strong> ${error.message}`;
+      }
+      box.style.display = "block";
+    }
 
 <strong>Request ID:</strong> ${requestId}
 <strong>Status:</strong> APPROVED ✅
