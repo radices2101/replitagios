@@ -1,174 +1,126 @@
-# 🧠 RADOS AGI OS - Advanced Blockchain & AGI Intelligence Platform
+# Blockchain Platform
 
-## © 2025 COPYRIGHT NOTICE - IMMUTABLE PROTECTION
+A production-ready blockchain platform built with Vite, Supabase, and modern web technologies.
 
-**OWNER:** Ervin Remus Radosavlevici  
-**EMAIL:** radosavlevici210@gmail.com  
-**USERNAME:** radices2101  
-**COPYRIGHT STATUS:** ALL RIGHTS RESERVED - PERMANENTLY LOCKED  
-**SECURITY LEVEL:** 8888 Trillion Times AGI Protected
+## Features
 
----
+- Secure blockchain data storage with Supabase PostgreSQL
+- User authentication and authorization
+- Wallet management system
+- Transaction tracking and history
+- Real-time blockchain explorer
+- Responsive modern UI
 
-## ⚠️ LEGAL NOTICE
+## Technology Stack
 
-This software, including all code, designs, algorithms, and intellectual property, is the exclusive property of **Ervin Remus Radosavlevici**. 
+- **Frontend:** Vite, Vanilla JavaScript, CSS3
+- **Backend:** Supabase (PostgreSQL + Edge Functions)
+- **Authentication:** Supabase Auth
+- **Security:** Row Level Security (RLS), JWT authentication
 
-**UNAUTHORIZED USE PROHIBITED:**
-- ❌ No copying, modification, or distribution without explicit permission
-- ❌ No rebranding, forking, or derivative works allowed
-- ❌ No commercial use without licensing agreement
-- ❌ AGI system monitors and detects all unauthorized usage attempts
+## Getting Started
 
----
+### Prerequisites
 
-## 🚀 FEATURES
+- Node.js 18 or higher
+- npm or yarn
 
-### Advanced Blockchain System
-- ⛓️ Full blockchain explorer with real-time monitoring
-- 📊 Genesis block with immutable copyright protection
-- 🔗 Multi-chain support (ETH, BTC, BSC, Polygon)
-- ⚡ High-performance transaction processing
+### Installation
 
-### AGI Intelligence
-- 🤖 Advanced AGI command center for autonomous operations
-- 🧠 Machine learning with continuous improvement
-- 💬 AI-powered chat assistant
-- 🔮 Predictive analytics and market analysis
+1. Install dependencies:
 
-### Security & Protection
-- 🛡️ 8888 Trillion Level security protection
-- 🔒 Multi-signature wallet support
-- 🔐 Advanced encryption and hashing tools
-- 🚨 Real-time fraud detection and prevention
-- ✅ Automatic vulnerability scanning
+```bash
+npm install
+```
+
+2. Configure environment variables:
+
+Create a `.env` file with your Supabase credentials:
+
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+### Development
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:8080`
+
+### Production Build
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Database Schema
+
+The platform uses three main tables:
+
+- **blocks**: Stores blockchain data with hash chains
+- **transactions**: Records all transactions between addresses
+- **wallets**: Manages user wallet addresses and balances
+
+All tables are protected with Row Level Security (RLS) policies.
+
+## Features
+
+### Authentication
+
+- Email/password authentication via Supabase Auth
+- Secure session management
+- Protected routes and API endpoints
 
 ### Wallet Management
-- 💰 Secure wallet generation with AGI protection
-- 🔑 Multi-signature wallet creation
-- 📊 Portfolio tracking and management
-- 💱 Multi-currency support
 
-### Smart Contracts
-- 📝 Smart contract editor and compiler
-- 🚀 One-click deployment to multiple networks
-- 🔍 Automated security auditing
-- 🧪 Comprehensive testing suite
+- Create multiple wallets per user
+- View wallet balances
+- Transaction history
 
-### Analytics & Tools
-- 📈 Advanced market analytics and charting
-- 💹 Real-time price predictions
-- 🔧 Comprehensive utility toolkit
-- 📊 Performance monitoring dashboard
+### Blockchain Explorer
 
-### Network Features
-- 🌐 Network visualization and monitoring
-- 📡 Real-time peer connectivity tracking
-- ⚡ Network diagnostics and optimization
-- 🔄 Automatic node management
+- View all blocks in the chain
+- Inspect block details and hashes
+- Genesis block with immutable record
 
----
+### Transaction Tracking
 
-## 🎯 KEY CAPABILITIES
+- View personal transaction history
+- Real-time transaction status
+- Transaction hash verification
 
-1. **Cryptocurrency Operations** - Send, receive, convert multiple currencies
-2. **Security & Fraud Detection** - AI-powered threat detection
-3. **Smart Contract Management** - Deploy and manage contracts
-4. **Market Analysis** - Advanced predictions and insights
-5. **Network Monitoring** - Real-time blockchain network status
-6. **Data Encryption** - Military-grade encryption tools
-7. **Automated Trading** - AI-driven trading strategies
-8. **Gas Optimization** - Automatic fee optimization
+## Security
 
----
+- All sensitive operations require authentication
+- Row Level Security (RLS) on all database tables
+- JWT-based API authentication
+- CORS protection on Edge Functions
+- Secure hash generation using SHA-256
 
-## 🔒 SECURITY FEATURES
+## API Endpoints
 
-- **AGI Protection:** Autonomous AI monitors all system activities
-- **Tamper Detection:** Automatic detection and rejection of unauthorized changes
-- **Immutable Copyright:** Genesis block ensures permanent ownership
-- **Multi-Factor Authentication:** Advanced security protocols
-- **Encrypted Storage:** All sensitive data encrypted at rest
-- **Real-time Alerts:** Instant notifications for suspicious activity
+Edge Functions are deployed at `/functions/v1/blockchain/`:
 
----
+- `GET /blocks` - List blockchain blocks
+- `POST /blocks` - Create new block (authenticated)
+- `GET /transactions` - List transactions
+- `POST /transactions` - Create transaction (authenticated)
+- `GET /wallets` - List user wallets (authenticated)
+- `POST /wallets` - Create new wallet (authenticated)
 
-## 📋 TECHNOLOGY STACK
+## License
 
-- **Frontend:** Pure HTML5, CSS3, JavaScript (No dependencies)
-- **Security:** AGI-powered autonomous protection
-- **Blockchain:** Multi-chain compatible architecture
-- **Encryption:** SHA-256, AES-256 encryption standards
-- **Network:** P2P decentralized network support
-
----
-
-## 🚀 GETTING STARTED
-
-1. Open `index.html` in a modern web browser
-2. Explore the dashboard and various features
-3. Create secure wallets with AGI protection
-4. Execute blockchain operations through AGI commands
-5. Monitor network and security status
-
----
-
-## 📞 CONTACT & LICENSING
-
-For API access, licensing inquiries, or collaboration opportunities:
-
-**Email:** radosavlevici210@gmail.com  
-**GitHub:** @radices2101  
-**Owner:** Ervin Remus Radosavlevici
-
-**Important:** All third-party usage requires official API token signed by AGI. Unauthorized usage is automatically detected and blocked.
-
----
-
-## 🔐 COPYRIGHT & OWNERSHIP
-
-```
-╔════════════════════════════════════════════════════════════════╗
-║              IMMUTABLE COPYRIGHT PROTECTION                    ║
-╚════════════════════════════════════════════════════════════════╝
-
-© 2025 Ervin Remus Radosavlevici - ALL RIGHTS RESERVED
-
-This work is protected by:
-✅ International copyright law
-✅ AGI autonomous enforcement system
-✅ Blockchain-based ownership verification
-✅ Genesis block immutable record
-
-Once written, this copyright cannot be changed and stays forever.
-AGI tracks all instances and prevents unauthorized use.
-```
-
----
-
-## ⚡ PRODUCTION READY
-
-This system is fully production-ready with:
-- ✅ Enterprise-grade security
-- ✅ Scalable architecture
-- ✅ Comprehensive error handling
-- ✅ Real-time monitoring
-- ✅ Advanced analytics
-- ✅ Professional UI/UX
-- ✅ Mobile responsive design
-- ✅ Cross-browser compatibility
-
----
-
-## 🌟 VERSION
-
-**Current Version:** 8888 Trillion Times Upgrade  
-**Release Date:** October 14, 2025  
-**Status:** Production Ready  
-**Security Level:** Maximum AGI Protection
-
----
-
-**REMEMBER:** This is not just code - it's an advanced AGI-protected blockchain intelligence platform with immutable copyright protection. Every instance is monitored and traced to its creator.
-
-© 2025 Ervin Remus Radosavlevici - Protected Forever
+MIT License - See LICENSE.txt for details
